@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="Infinity" />
+  <Solution solutionName="Omron_IAG" id="98a5ee63-1574-4cec-bf5e-67a7b23ae3ad" trackingId="b95f4b78-1a3f-4bda-9b4c-5194b2056c45" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="HMI-IAG" />
+      <ApplicationFeature name="IAG-Version:1.17" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>

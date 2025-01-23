@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <SolutionModel>
+      <DateCreated>2025-01-23T11:19:16.3053387+01:00</DateCreated>
+      <Author>Pierre Clot</Author>
+      <Customer></Customer>
+      <Project>Omron_IAG</Project>
+      <ShortDescription>Objects library for Omron HMI on Sysmac Studio </ShortDescription>
+      <Version></Version>
+      <Password></Password>
+      <ProjectType>IAGProjectType</ProjectType>
+      <EnableReferredLibrariesExport>false</EnableReferredLibrariesExport>
+      <PL>en-US</PL>
+    </SolutionModel>
+  </data>
+</data>

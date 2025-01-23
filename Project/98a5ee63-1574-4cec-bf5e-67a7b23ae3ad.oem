@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sysmac schemaVersion="1">
+  <Entity type="Solution" subtype="" id="98a5ee63-1574-4cec-bf5e-67a7b23ae3ad" name="Omron_IAG" version="0" dateCreated="01/23/2025 11:19:16" trackingId="b95f4b78-1a3f-4bda-9b4c-5194b2056c45">
+    <AccessInfos />
+    <ChildEntities>
+      <Entity type="SolutionCustomColors" subtype="" id="1bf07cfb-382c-4591-bb2f-f2881d7ebcbc" name="" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="72aff243-1003-4e23-bb25-4243ecb17af8">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+      <Entity type="EntityDefinedColor" subtype="" id="1b92d305-98bf-4dbf-ad4b-d164e57aa515" name="EntityDefinedColor" version="0" dateCreated="01/23/2025 11:19:16" trackingId="8870e372-f9ac-42ee-a332-9d7ca1107b22">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+      <Entity type="EntityDefinedCheckBox" subtype="" id="9363298e-cf26-4882-9725-030e6d308a13" name="EntityDefinedCheckBox" version="0" dateCreated="01/23/2025 11:19:16" trackingId="f3be5f94-08ff-43f8-bccd-1e8810ae77fd">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+      <Entity type="ProjectShortcut" subtype="" id="66099531-907b-4789-923c-148c0159da32" name="Project shortcut items" version="0" dateCreated="01/23/2025 11:19:16" trackingId="1f49da9d-1903-490f-aca6-53150803dc24" SDName="Project shortcut items">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+      <Entity type="VirtualDisplaySetting" subtype="" id="490fc85a-080d-4265-a345-cb4401c78726" name="3DVisualizerSettings" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="bfc5c04f-9d72-45ca-8ecc-b448c59429d3">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+      <Entity type="Sharing" subtype="" id="0f6dabfb-fc1e-431e-874b-d07981dd22f8" name="EntitySharing" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="3492b804-3f9b-4dcc-a013-0ec032531527" SDName="Sharing setting between devices">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+      <Entity type="Watch" subtype="MCWatchSubType" id="efc0375b-507b-4b41-8b81-b87679b5b312" name="Watch (Project)" version="0" dateCreated="01/23/2025 11:19:16" trackingId="21e90783-73c8-4c09-b94e-a62fb81f41b0">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+      <Entity type="Device" subtype="IAGDeviceSubType" id="ad9b0b4f-8619-41b0-9f0d-789ec040cd46" name="IAG_Device_0" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="ff12caf6-beae-44e0-8716-7b14c38b953a" DN="IAG_Device_0" hash="c29f56ceecb4b4a603ffcf17646a136c" DHS="97833479fe230484cccd97b7ce8f74af" TH="753e232886e4c9fe7bc84f21c67ebb97">
+        <AccessInfos />
+        <ChildEntities>
+          <Entity type="Watch" subtype="" id="75866302-0fe7-4064-abf5-38dee0ee55a8" name="Watch" version="0" dateCreated="01/23/2025 11:19:16" trackingId="617c7d95-81ce-4999-b3f3-ddbac3fddeed">
+            <AccessInfos />
+            <ChildEntities />
+          </Entity>
+          <Entity type="CommsSettings" subtype="" id="30241bbf-8d25-4066-85a4-3c9f8b16508a" name="Communications Settings" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="855b6322-fcdd-4833-8ab3-cba38ec2bb74">
+            <AccessInfos />
+            <ChildEntities />
+          </Entity>
+          <Entity type="Multilanguage" subtype="" id="331f33f5-a3a0-4e4f-821a-cec2df827463" name="Language Settings" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:22" trackingId="c200380a-fda6-4326-bbe2-ff8ab6d60a70" DN="Language Settings" hash="ad1fb1fba378021cbe56bb1bf0df73a1">
+            <AccessInfos />
+            <ChildEntities />
+          </Entity>
+          <Entity type="IagCollectionPropertiesEntityType" subtype="IagCollectionPropertiesEntitySubType" id="3d97a402-98fc-4d46-b745-c78ce5d2ce97" name="IAG Collection Settings" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="449240b9-57a7-46dc-ac58-4ee5646cf0db" DN="IAG Collection Settings">
+            <AccessInfos />
+            <ChildEntities />
+          </Entity>
+          <Entity type="ProjectSettings" subtype="" id="f67f0113-98e5-433b-ac98-3a87ab31777c" name="HMI Settings" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="558cd025-995e-48ab-a843-5479c33abeda">
+            <AccessInfos />
+            <ChildEntities />
+          </Entity>
+          <Entity type="IagGroup" subtype="" id="85b2594d-f268-474e-86c2-37549db5c490" name="IAGs" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="915d13b6-3278-4509-8114-bc61d9cee95e" DN="IAGs">
+            <AccessInfos />
+            <ChildEntities />
+          </Entity>
+          <Entity type="CommonSubroutinesGroupEntity" subtype="CommonSubroutinesGroupEntitySubtype" id="7312a808-98da-4ab4-96f1-ccd445ba4c8a" name="Common Subroutines" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="222e73be-7f41-4dd4-a21a-41e4b93ba329">
+            <AccessInfos />
+            <ChildEntities />
+          </Entity>
+          <Entity type="HmiDataGroup" subtype="HmiDataGroupSubType" id="3447e08d-e9ee-4ece-b244-c8d02d705b8b" name="Data" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="6317ed3b-63b7-4256-b6cc-fd55988f0f61" DN="Data">
+            <AccessInfos />
+            <ChildEntities>
+              <Entity type="DataType" subtype="" id="eee3b80c-db6f-4781-82b4-942508f01d24" name="Data Types" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="6b9810e1-c790-4682-b77f-751904e66be3" DN="Data Types" hash="b4a14c66f8c1173cdb5fa28f5f02f3b2">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="cd6a99a6-7cf0-4800-a513-6ebbcf606edb" name="Source" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="f31cbaac-0286-4287-956e-11f0673c5ba8">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="Variables" subtype="MemoryVariables" id="3f9e5875-6101-43cd-a9a1-629bfd4b3ce9" name="Global Variables" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="98fee4e1-6d4b-400d-8450-25b971400baf" hash="017eb2cfa6b89d67e5905a6aa11520e2">
+                <AccessInfos />
+                <ChildEntities />
+              </Entity>
+              <Entity type="ResourceUsageType" subtype="ResourceUsageSubtype" id="ed2295d5-05f1-47ea-aeef-83be4c99b8bf" name="Resource usage" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="4a4ae620-de9a-4287-8699-d123d6d2de43">
+                <AccessInfos />
+                <ChildEntities />
+              </Entity>
+            </ChildEntities>
+          </Entity>
+          <Entity type="ResourceGroup" subtype="" id="cba6856f-729a-4db0-9717-eb3f8ce05403" name="Resources" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:22" trackingId="2d75ba72-f23d-4d1a-98c8-34073b822e0b" DN="Resources">
+            <AccessInfos />
+            <ChildEntities>
+              <Entity type="LocalisationResources" subtype="" id="851fe126-c92d-42ed-8456-ec1ed2ec9e8c" name="Root" version="0" dateCreated="01/23/2025 11:19:17" dateLastModified="01/23/2025 11:19:22" trackingId="7eac2501-87a6-4eef-8626-52e49d453afd" DN="Root" hash="4ddc2de5ef9638654fab1b5ea42dc732">
+                <AccessInfos />
+                <ChildEntities />
+              </Entity>
+            </ChildEntities>
+          </Entity>
+        </ChildEntities>
+      </Entity>
+      <Entity type="VisibleIagCollectionsEntityType" subtype="VisibleIagCollectionsEntitySubType" id="db44e704-6f66-4cc2-8db9-9d22dbe58971" name="" version="0" dateCreated="01/23/2025 11:19:17" dateLastModified="01/23/2025 11:19:22" trackingId="25feefac-f1f5-42b6-9012-012db8109754" SDName="IAG Collection Settings" hash="762c2d52ad960015f28375123ec19539">
+        <AccessInfos />
+        <ChildEntities />
+      </Entity>
+    </ChildEntities>
+  </Entity>
+</sysmac>
