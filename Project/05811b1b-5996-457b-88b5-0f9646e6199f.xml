@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\FLASHLAMP" Name="MyFlashlamp" Address="" Length="" Retained="false" InitialValue="" Comment="Flahlamp object" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="7a0a0c98-e54b-457d-bb53-ef588cde0897" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>

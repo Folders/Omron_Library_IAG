@@ -31,7 +31,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="IAGDeviceSubType" id="ad9b0b4f-8619-41b0-9f0d-789ec040cd46" name="IAG_Device_0" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="ff12caf6-beae-44e0-8716-7b14c38b953a" DN="IAG_Device_0" hash="c29f56ceecb4b4a603ffcf17646a136c" DHS="0fa84e4012802944a9d00e5849943ddb" TH="7ed1a9a226baa2c7760a848648b594b2">
+      <Entity type="Device" subtype="IAGDeviceSubType" id="ad9b0b4f-8619-41b0-9f0d-789ec040cd46" name="IAG_Device_0" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="ff12caf6-beae-44e0-8716-7b14c38b953a" DN="IAG_Device_0" hash="c29f56ceecb4b4a603ffcf17646a136c" DHS="030fbf5d1c277474fa9564c58320eb6c" TH="c1a1230cf1e9935304bf81f6ba3d860f">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="75866302-0fe7-4064-abf5-38dee0ee55a8" name="Watch" version="0" dateCreated="01/23/2025 11:19:16" trackingId="617c7d95-81ce-4999-b3f3-ddbac3fddeed">
@@ -54,13 +54,13 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="IagGroup" subtype="" id="85b2594d-f268-474e-86c2-37549db5c490" name="IAGs" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/30/2025 15:25:44" trackingId="915d13b6-3278-4509-8114-bc61d9cee95e" DN="IAGs">
+          <Entity type="IagGroup" subtype="" id="85b2594d-f268-474e-86c2-37549db5c490" name="IAGs" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="04/17/2025 10:13:11" trackingId="915d13b6-3278-4509-8114-bc61d9cee95e" DN="IAGs">
             <AccessInfos />
             <ChildEntities>
               <Entity type="HmiIag" subtype="" id="24f523b1-94fe-4ff2-a249-98fa1c82ce18" name="Grid" version="0" dateCreated="01/30/2025 14:59:45" dateLastModified="01/30/2025 15:25:44" trackingId="6d6d98e4-0000-40e3-bac2-3ac30c30132d" DN="Grid">
                 <AccessInfos />
                 <ChildEntities>
-                  <Entity type="IagPage" subtype="GraphicalPage" id="b104eff4-bcbf-4c08-a694-5f178915235b" name="Grid" version="0" dateCreated="01/30/2025 14:59:45" dateLastModified="01/30/2025 15:25:44" trackingId="0bac1ade-a17b-4552-84f2-979a4e0da598" hash="36f55f1b35875c0d582abfd108a688ea">
+                  <Entity type="IagPage" subtype="GraphicalPage" id="b104eff4-bcbf-4c08-a694-5f178915235b" name="Grid" version="0" dateCreated="01/30/2025 14:59:45" dateLastModified="04/17/2025 10:13:11" trackingId="0bac1ade-a17b-4552-84f2-979a4e0da598" hash="14865a61f4d1ed84f4ce725d6328c768">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="IagPage" subtype="VisualBasicPage" id="3e0110cc-f858-4e01-8088-bc6db7e42e95" name="Grid.vb" version="0" dateCreated="01/30/2025 14:59:45" dateLastModified="01/30/2025 15:25:44" trackingId="e6a215da-240d-4dd5-b10b-a7b2d1d5e11d" hash="9a3d74e90efe84ad4aba5f144042a160">
@@ -74,6 +74,28 @@
                     <ChildEntities />
                   </Entity>
                   <Entity type="Variables" subtype="IagVariables" id="7dfc64b2-ec6a-4cf0-8e11-65901835e2dc" name="IAG Variables" version="1" dateCreated="01/30/2025 14:59:45" dateLastModified="01/30/2025 15:25:44" trackingId="4f6921fb-b899-4b7f-aff1-64ac323be1ab" SDName="User Variables" hash="2f78f0e122b7eeb33b6722a35c8e03ee">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="HmiIag" subtype="" id="f7ca0eac-7ce9-44ff-9636-f3297214675a" name="Flashlamp" version="0" dateCreated="04/17/2025 09:57:47" dateLastModified="04/17/2025 10:13:11" trackingId="d0711330-35d2-4bac-a9c5-90a3086e649e" DN="Flashlamp">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="IagPage" subtype="GraphicalPage" id="e65576b4-88ea-433b-b846-a0168be2c9a1" name="Flashlamp" version="0" dateCreated="04/17/2025 09:57:48" dateLastModified="04/17/2025 10:13:11" trackingId="d9014201-68ce-46f1-8342-41b44c5430f5" hash="f5061db8daf92ca581a6994ba75f6d53">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="IagPage" subtype="VisualBasicPage" id="bfe257d1-d14b-4fe4-bc28-1e168b3c1505" name="Flashlamp.vb" version="0" dateCreated="04/17/2025 09:57:48" dateLastModified="04/17/2025 10:04:09" trackingId="200bd5e6-36e5-4514-9855-16adbb4cc6d3" hash="bce4afd7ceaf8ed62eead51ca293e932">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="IagPage" subtype="UserEventsEntitySubtype" id="1c9ef49a-3acb-402e-90d2-894fe64070eb" name="User Events" version="0" dateCreated="04/17/2025 09:57:48" dateLastModified="04/17/2025 09:57:48" trackingId="9b82ac6d-fce0-4862-8096-2e8bf331c197">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="Variables" subtype="IagVariables" id="05811b1b-5996-457b-88b5-0f9646e6199f" name="IAG Variables" version="1" dateCreated="04/17/2025 09:57:48" dateLastModified="04/17/2025 10:04:09" trackingId="35d1d51d-857a-4827-b354-0ae47cba7860" SDName="User Variables" hash="02a72d48eefe01c91195da7a7f255ea1">
                     <AccessInfos />
                     <ChildEntities />
                   </Entity>
@@ -127,7 +149,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="DataType" subtype="" id="43eec6f5-df59-44d0-a29e-176dda97a067" name="Data Types0" version="0" dateCreated="01/23/2025 11:48:07" dateLastModified="01/30/2025 14:23:28" namespace="OBJ" trackingId="0ae12e78-b56d-48ae-8ad8-45879f17928c" hash="adf528b56d0fe4a09320af2e017ea1a1">
+              <Entity type="DataType" subtype="" id="43eec6f5-df59-44d0-a29e-176dda97a067" name="Data Types0" version="0" dateCreated="01/23/2025 11:48:07" dateLastModified="04/17/2025 10:01:29" namespace="OBJ" trackingId="0ae12e78-b56d-48ae-8ad8-45879f17928c" hash="ed49a0ae6bf39ca0307bcf7317c0e3bd">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="07fa8a1b-d886-49a4-ba5b-cc902fe1e07c" name="Source" version="0" dateCreated="01/23/2025 11:48:07" dateLastModified="01/23/2025 11:48:07" trackingId="fdad7eca-9a34-483c-b1fc-84c3bb0b6f78">
@@ -141,7 +163,7 @@
           <Entity type="ResourceGroup" subtype="" id="cba6856f-729a-4db0-9717-eb3f8ce05403" name="Resources" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:22" trackingId="2d75ba72-f23d-4d1a-98c8-34073b822e0b" DN="Resources">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="LocalisationResources" subtype="" id="851fe126-c92d-42ed-8456-ec1ed2ec9e8c" name="Root" version="0" dateCreated="01/23/2025 11:19:17" dateLastModified="01/30/2025 15:25:44" trackingId="7eac2501-87a6-4eef-8626-52e49d453afd" DN="Root" hash="171cf34afc23f3bf2c35babba51ea682">
+              <Entity type="LocalisationResources" subtype="" id="851fe126-c92d-42ed-8456-ec1ed2ec9e8c" name="Root" version="0" dateCreated="01/23/2025 11:19:17" dateLastModified="04/17/2025 10:10:20" trackingId="7eac2501-87a6-4eef-8626-52e49d453afd" DN="Root" hash="32311011cf86c4bcce16ebda6873a76b">
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
