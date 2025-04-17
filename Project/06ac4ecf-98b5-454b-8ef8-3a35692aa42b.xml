@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Boolean" Name="pressed" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="564038c5-8357-460f-aa0c-f12bd91a22fa" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="init" Address="" Length="" Retained="false" InitialValue="False" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="b009329c-a028-494c-bba3-23fd3181e36a" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="String" Name="Text" Address="" Length="" Retained="false" InitialValue="'Ressource_ID'" Comment="Title ressource name" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="4597e4c0-4f4f-4aa2-afa6-3109a03be386" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="IsEnable" Address="" Length="" Retained="false" InitialValue="True" Comment="Button is enabled" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="7c772994-da3b-4a66-b925-1277a044a96e" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="IsActive" Address="" Length="" Retained="false" InitialValue="" Comment="Button is active (pressed)" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="7e69e803-05f7-4f25-907e-15d0d93710d5" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="OBJ\eColor" Name="Color" Address="" Length="" Retained="false" InitialValue="" Comment="Select color when the button is active (no color = gray)" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="60c10eb2-e8d8-4e97-9317-80a8927e1e1d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>
