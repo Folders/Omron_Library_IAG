@@ -31,7 +31,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="IAGDeviceSubType" id="ad9b0b4f-8619-41b0-9f0d-789ec040cd46" name="IAG_Device_0" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="ff12caf6-beae-44e0-8716-7b14c38b953a" DN="IAG_Device_0" hash="c29f56ceecb4b4a603ffcf17646a136c" DHS="9a0d843409a60fbc4828e447c864d0c7" TH="956ddd273eff0d9d867a2f6608b225a5">
+      <Entity type="Device" subtype="IAGDeviceSubType" id="ad9b0b4f-8619-41b0-9f0d-789ec040cd46" name="IAG_Device_0" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:16" trackingId="ff12caf6-beae-44e0-8716-7b14c38b953a" DN="IAG_Device_0" hash="c29f56ceecb4b4a603ffcf17646a136c" DHS="ae71a8dbb678b575aeb1ba6ef4c1ccef" TH="7cdf8a51f25f0d467d9af0fa07293f9c">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="75866302-0fe7-4064-abf5-38dee0ee55a8" name="Watch" version="0" dateCreated="01/23/2025 11:19:16" trackingId="617c7d95-81ce-4999-b3f3-ddbac3fddeed">
@@ -46,7 +46,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="IagCollectionPropertiesEntityType" subtype="IagCollectionPropertiesEntitySubType" id="3d97a402-98fc-4d46-b745-c78ce5d2ce97" name="IAG Collection Settings" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="02/17/2026 14:08:41" trackingId="449240b9-57a7-46dc-ac58-4ee5646cf0db" DN="IAG Collection Settings" hash="64aace2aa5647b46dfc5a0b5cb7d8105">
+          <Entity type="IagCollectionPropertiesEntityType" subtype="IagCollectionPropertiesEntitySubType" id="3d97a402-98fc-4d46-b745-c78ce5d2ce97" name="IAG Collection Settings" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="04/02/2026 17:22:38" trackingId="449240b9-57a7-46dc-ac58-4ee5646cf0db" DN="IAG Collection Settings" hash="f05ee28c6ec39ae26e7f68b8c5529d36">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -54,7 +54,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="IagGroup" subtype="" id="85b2594d-f268-474e-86c2-37549db5c490" name="IAGs" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="03/09/2026 17:26:24" trackingId="915d13b6-3278-4509-8114-bc61d9cee95e" DN="IAGs">
+          <Entity type="IagGroup" subtype="" id="85b2594d-f268-474e-86c2-37549db5c490" name="IAGs" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="04/02/2026 17:22:38" trackingId="915d13b6-3278-4509-8114-bc61d9cee95e" DN="IAGs">
             <AccessInfos />
             <ChildEntities>
               <Entity type="HmiIag" subtype="" id="24f523b1-94fe-4ff2-a249-98fa1c82ce18" name="Grid" version="0" dateCreated="01/30/2025 14:59:45" dateLastModified="01/30/2025 15:25:44" trackingId="6d6d98e4-0000-40e3-bac2-3ac30c30132d" DN="Grid">
@@ -189,6 +189,28 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
+              <Entity type="HmiIag" subtype="" id="161ead19-355c-417b-8dc0-1c09fa1ada8c" name="Machine_Status" version="NaN" dateCreated="07/18/2018 17:11:05" dateLastModified="04/02/2026 17:22:38" trackingId="c69c577d-5909-46da-9ed8-e98da3fbe798" DN="Machine_Status">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="IagPage" subtype="GraphicalPage" id="9cfed5da-ea86-42ac-b8e2-be32b70e9d73" name="Machine_Status" version="0" dateCreated="07/18/2018 17:11:05" dateLastModified="04/02/2026 17:22:38" trackingId="ebc5d312-02ce-4705-ba17-b4498ac266a6" hash="de402d8255f63912011aa65e23f096d0">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="IagPage" subtype="VisualBasicPage" id="9bafd79a-200b-4236-882a-d49ec55ddd62" name="Machine_Status.vb" version="0" dateCreated="07/18/2018 17:11:05" dateLastModified="04/02/2026 17:22:38" trackingId="79ff3595-4960-4f03-81d6-386fd4d3bb78" hash="a105be8d9b840bcf89d1ef8c9d33016d">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="IagPage" subtype="UserEventsEntitySubtype" id="c59261ec-de80-4e26-b139-9f988ca41434" name="User Events" version="0" dateCreated="07/18/2018 17:11:05" dateLastModified="04/02/2026 17:22:38" trackingId="7620f34a-1880-4717-aa94-b2745f1d9fdc" hash="95217adb1770a8664bb250b7f12295cf">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="Variables" subtype="IagVariables" id="03cfc99e-9e23-444f-aa63-1b7cf60c3053" name="IAG Variables" version="1" dateCreated="07/18/2018 17:11:05" dateLastModified="04/02/2026 17:22:38" trackingId="a7c583c7-2b6e-42b4-b45a-82cffdbdec98" SDName="User Variables" hash="4e44fe10c3f199de63912a3d6e7a9d52">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
               <Entity type="HmiIag" subtype="" id="db46a2cb-683f-4b70-a12c-8e50d3adc12b" name="Pneu_Cylinder" version="NaN" dateCreated="11/13/2017 15:21:59" dateLastModified="10/02/2025 14:44:21" trackingId="cf62407f-f000-40f8-8eb0-eb08931079ff" DN="Pneu_Cylinder">
                 <AccessInfos />
                 <ChildEntities>
@@ -214,7 +236,7 @@
               <Entity type="HmiIag" subtype="" id="d2c185a3-970e-4408-ae54-839084bd9e21" name="State_XS" version="NaN" dateCreated="04/20/2018 15:11:06" dateLastModified="10/02/2025 14:44:21" trackingId="c16cd6d2-ff1d-4de9-b6d4-91fd8d6e7a84" DN="State_XS">
                 <AccessInfos />
                 <ChildEntities>
-                  <Entity type="IagPage" subtype="GraphicalPage" id="9da46109-8f7a-468e-987b-3f99d3347246" name="State_XS" version="0" dateCreated="04/20/2018 15:11:06" dateLastModified="03/10/2026 15:08:03" trackingId="2192ce21-a6ed-4e0f-8714-21190ef61c28" hash="f2f51dad0d3f4a1096eb859f14400d04">
+                  <Entity type="IagPage" subtype="GraphicalPage" id="9da46109-8f7a-468e-987b-3f99d3347246" name="State_XS" version="0" dateCreated="04/20/2018 15:11:06" dateLastModified="03/12/2026 18:24:56" trackingId="2192ce21-a6ed-4e0f-8714-21190ef61c28" hash="da20273d7aa107f5232224798722c907">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="IagPage" subtype="VisualBasicPage" id="43af8d86-16dd-4250-8161-ae0e55b48563" name="State_XS.vb" version="0" dateCreated="04/20/2018 15:11:06" dateLastModified="10/02/2025 10:51:39" trackingId="7007013a-bb8d-4c01-8b7e-e3da7a7f6e51" hash="bd0199d59c5a35ca60d44e5fa7215682">
@@ -259,7 +281,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="DataType" subtype="" id="43eec6f5-df59-44d0-a29e-176dda97a067" name="Data Types0" version="0" dateCreated="01/23/2025 11:48:07" dateLastModified="03/09/2026 17:26:24" namespace="OBJ" trackingId="0ae12e78-b56d-48ae-8ad8-45879f17928c" hash="c4a08d5f125f5c4bf177e2421250a7a2">
+              <Entity type="DataType" subtype="" id="43eec6f5-df59-44d0-a29e-176dda97a067" name="Data Types0" version="0" dateCreated="01/23/2025 11:48:07" dateLastModified="04/02/2026 17:22:38" namespace="OBJ" trackingId="0ae12e78-b56d-48ae-8ad8-45879f17928c" hash="177236a99a04cd894f4f4d2935d88ef7">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="07fa8a1b-d886-49a4-ba5b-cc902fe1e07c" name="Source" version="0" dateCreated="01/23/2025 11:48:07" dateLastModified="01/23/2025 11:48:07" trackingId="fdad7eca-9a34-483c-b1fc-84c3bb0b6f78">
@@ -273,13 +295,13 @@
           <Entity type="ResourceGroup" subtype="" id="cba6856f-729a-4db0-9717-eb3f8ce05403" name="Resources" version="0" dateCreated="01/23/2025 11:19:16" dateLastModified="01/23/2025 11:19:22" trackingId="2d75ba72-f23d-4d1a-98c8-34073b822e0b" DN="Resources">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="LocalisationResources" subtype="" id="851fe126-c92d-42ed-8456-ec1ed2ec9e8c" name="Root" version="0" dateCreated="01/23/2025 11:19:17" dateLastModified="10/02/2025 10:51:39" trackingId="7eac2501-87a6-4eef-8626-52e49d453afd" DN="Root" hash="336daeeb639d12751ae8c2185e10fa1b">
+              <Entity type="LocalisationResources" subtype="" id="851fe126-c92d-42ed-8456-ec1ed2ec9e8c" name="Root" version="0" dateCreated="01/23/2025 11:19:17" dateLastModified="04/02/2026 17:22:38" trackingId="7eac2501-87a6-4eef-8626-52e49d453afd" DN="Root" hash="fa4058321f82eec287bd50ccfb332d1e">
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
             </ChildEntities>
           </Entity>
-          <Entity type="IagResourceFileReferences" subtype="" id="ab289ebe-bbdc-4161-87a2-f27ae86e4753" name="" version="1" dateCreated="01/30/2025 15:23:18" dateLastModified="10/02/2025 10:51:39" trackingId="a5fb3bfd-0413-4b71-8fab-f00d516ec05b" hash="675f645846a2355131cf289c0dd071c1">
+          <Entity type="IagResourceFileReferences" subtype="" id="ab289ebe-bbdc-4161-87a2-f27ae86e4753" name="" version="1" dateCreated="01/30/2025 15:23:18" dateLastModified="04/02/2026 17:22:38" trackingId="a5fb3bfd-0413-4b71-8fab-f00d516ec05b" hash="51dd046aabf24dc950a011b90f08d4a9">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -289,7 +311,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="FileReferences" subtype="" id="932a790f-b23b-4680-a717-11db03b29378" name="" version="1" dateCreated="01/30/2025 15:23:18" dateLastModified="10/02/2025 10:51:39" trackingId="77a83715-8a4a-41fb-9b01-fb9bd2e3c92e" hash="0031c916c5a519390c8bcdb526cb2a6c">
+      <Entity type="FileReferences" subtype="" id="932a790f-b23b-4680-a717-11db03b29378" name="" version="1" dateCreated="01/30/2025 15:23:18" dateLastModified="04/02/2026 17:22:38" trackingId="77a83715-8a4a-41fb-9b01-fb9bd2e3c92e" hash="51762377a6292e02a38e592ee3b700b5">
         <AccessInfos />
         <ChildEntities />
       </Entity>
