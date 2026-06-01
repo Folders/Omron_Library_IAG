@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\VIBRATOR\BASE" Name="MyVibrator" Address="" Length="" Retained="false" InitialValue="" Comment="Vibrator object" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="20a8b6c5-575e-434f-b427-f2c424057e5d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="String" Name="Text" Address="" Length="" Retained="false" InitialValue="" Comment="Name of the cylinder" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="31d799f4-3636-445e-8466-4e46db0f1a4d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="IsRessource" Address="" Length="" Retained="false" InitialValue="False" Comment="Text is a string ressource" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="e8f833ad-f823-4c9b-8236-2f78b7a89e04" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Short" Name="Setpoint" Address="" Length="" Retained="false" InitialValue="" Comment="Setpoint from recipe" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="ca95dd81-158d-4b45-bd6a-8b2023aa1896" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Short" Name="StepButton" Address="" Length="" Retained="false" InitialValue="1" Comment="Step when a button is pressed" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="b3c5967e-39c5-4550-adb6-cdbe95a19406" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>

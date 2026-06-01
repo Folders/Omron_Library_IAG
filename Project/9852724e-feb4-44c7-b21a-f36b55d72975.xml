@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\SENSOR\BASE" Name="MySensor" Address="" Length="" Retained="false" InitialValue="" Comment="Used object for IAG" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="642cd7b5-b9e2-4649-8928-bd066add28d7" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="String" Name="Text" Address="" Length="" Retained="false" InitialValue="" Comment="Name of the sensor" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="c976520b-69cd-4b34-a74f-1aa38ddc422a" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="IsRessource" Address="" Length="" Retained="false" InitialValue="False" Comment="Text is a string ressource" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="02c625de-b9dd-4605-8220-1726674e40c7" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+</Variables>

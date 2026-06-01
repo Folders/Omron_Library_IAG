@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Variables>
-  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
-    <Variable DataTypeName="Integer" Name="ColorIconArea" Address="" Length="" Retained="false" InitialValue="0" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="654112a4-0ac9-409f-9272-129218859f60" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
-  </VariableGroup>
   <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
     <Variable DataTypeName="Boolean" Name="Displayed_State" Address="" Length="" Retained="false" InitialValue="False" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="80098c4f-b579-409e-be00-cfc910d40013" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
     <Variable DataTypeName="OBJ\STATUS" Name="MyStatus" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="cd3b0bae-5da1-4470-9737-7935d1d9941b" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
-    <Variable DataTypeName="OBJ\STATE" Name="MyState" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="3efd14bb-e947-4398-9298-c107d463700d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="OBJ\STATE\BASE" Name="MyState" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="3efd14bb-e947-4398-9298-c107d463700d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
     <Variable DataTypeName="String" Name="Title" Address="" Length="" Retained="false" InitialValue="'Ressource_ID'" Comment="Title ressource name" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="8a2756a2-1d1f-4daa-a3f1-93224ca5b339" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Integer" Name="ColorIconArea" Address="" Length="" Retained="false" InitialValue="0" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="654112a4-0ac9-409f-9272-129218859f60" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
   </VariableGroup>
 </Variables>
