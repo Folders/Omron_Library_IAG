@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\PANEL\BASE" Name="MyPanel" Address="" Length="" Retained="false" InitialValue="" Comment="My HMI structure" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="579eec8b-5379-4e78-a330-f005b1dfc256" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="Displayed" Address="" Length="" Retained="false" InitialValue="True" Comment="Visibility of Bouton" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="18af21e1-d14c-4f29-a650-b4332d33f05c" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="Usable" Address="" Length="" Retained="false" InitialValue="True" Comment="Activation of Bouton" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="18047f34-c654-4d8d-a2d8-d64d2125659f" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="String" Name="Text" Address="" Length="" Retained="false" InitialValue="" Comment="Text on button" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="16961052-2167-440b-a9d9-ce1e8fb38830" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>

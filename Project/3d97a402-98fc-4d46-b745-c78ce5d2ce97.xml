@@ -1,4 +1,20 @@
-<IagCollectionProperties xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.Iag.Core.CollectionProperties" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CollectionName xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">Omron_IAG</a:currentValue></CollectionName><Description xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">S06V00R00 - 2026.05.21 - PC&#xD;
+<IagCollectionProperties xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.Iag.Core.CollectionProperties" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CollectionName xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">Omron_IAG</a:currentValue></CollectionName><Description xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">S06V01R00 - 2026.06.29 - PC&#xD;
+- Create panel object&#xD;
+- Inverter: Add inverter IAG&#xD;
+&#xD;
+S06V00R03 - 2026.06.11 - PC&#xD;
+- Create progress bar control&#xD;
+&#xD;
+S06V00R02 - 2026.06.02 - PC&#xD;
+- New visual version&#xD;
+- Standard name object&#xD;
+&#xD;
+S06V00R01 - 2026.06.01 - PC&#xD;
+- Vibrator: Add IAG&#xD;
+- Pneumatic: Add valve and nozzle IAG&#xD;
+- Sensor: Add 'Enable' status&#xD;
+&#xD;
+S06V00R00 - 2026.05.21 - PC&#xD;
 - Using namespace&#xD;
 - Sensor: Add sensor IAG&#xD;
 &#xD;
@@ -16,4 +32,4 @@ S05V01R00 - 2025.10.02 - PC&#xD;
 - Button: Patch color with new enum&#xD;
 &#xD;
 S05V00R00 - 2025.01.23 - PC&#xD;
-- Pneu: Use new structure</a:currentValue></Description><Name>Omron_IAG</Name><PublicationFilePath xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">C:\OMRON\Data\VC\FB and IAG\Omron_IAG\Lib\Omron_IAG.iag</a:currentValue></PublicationFilePath><Publisher xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">Pierre Clot</a:currentValue></Publisher><Version xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">S06V00R00</a:currentValue></Version><VisibleByDefault>true</VisibleByDefault></IagCollectionProperties>
+- Pneu: Use new structure</a:currentValue></Description><Name>Omron_IAG</Name><PublicationFilePath xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">C:\OMRON\Data\VC\FB and IAG\Omron_IAG\Lib\Omron_IAG.iag</a:currentValue></PublicationFilePath><Publisher xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">Pierre Clot</a:currentValue></Publisher><Version xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">S06V01R00</a:currentValue></Version><VisibleByDefault>true</VisibleByDefault></IagCollectionProperties>

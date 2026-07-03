@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Single" Name="ProgressValue" Address="" Length="" Retained="false" InitialValue="" Comment="Followed value" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="6c15cbfb-746f-4247-bb3d-c6b6461cd371" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Single" Name="ProgressMax" Address="" Length="" Retained="false" InitialValue="100" Comment="Maximum of followed value" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="b8cc0865-7ce0-484d-8bb8-0d4a91a421c7" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="ShowValue" Address="" Length="" Retained="false" InitialValue="True" Comment="Show the progression value" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="170ef14e-dc3a-41e7-b4a6-d75e6db54772" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="InPercent" Address="" Length="" Retained="false" InitialValue="False" Comment="Value shown is in percent" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="0a66dfd7-8d5c-40d6-8060-e9e2b254d806" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Boolean" Name="init" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="3a0cda14-5b33-4209-9718-2e8cbbd42ce2" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>
