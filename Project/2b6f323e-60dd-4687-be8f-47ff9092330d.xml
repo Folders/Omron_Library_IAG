@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\GRIPPER\BASE" Name="MyGripper" Address="" Length="" Retained="false" InitialValue="" Comment="Structure of the cylinder" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="e128ff42-5983-4546-828f-7f62cf4d85ad" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="String" Name="Text" Address="" Length="" Retained="false" InitialValue="" Comment="Name of the cylinder" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="0e9157aa-bdfc-4c13-921a-ff1849416c4f" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="IsRessource" Address="" Length="" Retained="false" InitialValue="False" Comment="Text is a string ressource" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="5cdd6369-5915-4201-8b8c-df2993c73858" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+</Variables>
