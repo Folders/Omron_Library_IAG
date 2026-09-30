@@ -1,1 +1,1 @@
-<UserEvents xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.UserEvents.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><userEvents/></UserEvents>
+<UserEvents xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.UserEvents.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><userEvents><UserEvent><Comment>When parameters are saved into the gripper</Comment><Id>0e150f66-4d94-4015-ab25-185a7ac6db0d</Id><Name>OnSave</Name></UserEvent></userEvents></UserEvents>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Boolean" Name="showPopUpVision" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="c10101e4-833b-439b-a456-c50c4a67e7a4" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\CAMERA\COGNEX\BASE" Name="MyCamera" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="306437b2-dca7-4a89-9894-b226e22f7dbd" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="ShowRelative" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="1f8cc033-b8d7-45ac-bcf2-9d4efc588949" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>

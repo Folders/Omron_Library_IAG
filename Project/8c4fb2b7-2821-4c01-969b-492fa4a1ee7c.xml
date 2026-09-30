@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\STATE\BASE" Name="MyState" Address="" Length="" Retained="false" InitialValue="" Comment="Machine state" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="da908aab-224f-4ba7-b15a-0f43b77719b8" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="AsBackground" Address="" Length="" Retained="false" InitialValue="False" Comment="Colored background is visible" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="aa37d79d-1768-4f86-8caf-963182c40c01" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+</Variables>
