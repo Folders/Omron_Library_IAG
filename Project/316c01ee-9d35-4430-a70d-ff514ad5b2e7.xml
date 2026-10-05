@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="OBJ\CLOCK\BASE" Name="ClockMgr" Address="" Length="" Retained="false" InitialValue="" Comment="Clock manager" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="a73cd55a-15ee-409d-80df-8a29b09005d4" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+</Variables>
