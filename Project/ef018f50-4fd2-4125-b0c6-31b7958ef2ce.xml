@@ -1,0 +1,1 @@
+<UserEvents xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.UserEvents.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><userEvents><UserEvent><Comment>Call when the selected item change</Comment><Id>5f29a8b0-3acd-4b64-81c3-b0724764239e</Id><Name>OnChange</Name></UserEvent></userEvents></UserEvents>
