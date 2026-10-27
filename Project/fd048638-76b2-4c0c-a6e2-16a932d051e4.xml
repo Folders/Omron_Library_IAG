@@ -1,0 +1,1 @@
+<UserEvents xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.UserEvents.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><userEvents><UserEvent><Comment/><Id>0670e4eb-5c86-410c-80a5-6f994f2e4151</Id><Name>OnClick</Name></UserEvent></userEvents></UserEvents>

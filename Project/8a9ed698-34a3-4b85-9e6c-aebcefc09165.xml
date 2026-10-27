@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Boolean" Name="Active" Address="" Length="" Retained="false" InitialValue="False" Comment="Add selected layer" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="428691e6-1d13-4e8d-af20-f2ec02dc0f5d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="OBJ\eColor" Name="Color" Address="" Length="" Retained="false" InitialValue="" Comment="Set the color of buton" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="f817c9e9-5b95-4aa7-a054-6dad68de773d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="Usable" Address="" Length="" Retained="false" InitialValue="True" Comment="Activation of Bouton" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="b8a02cd5-9217-42f9-af22-83e0adf1466f" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+</Variables>

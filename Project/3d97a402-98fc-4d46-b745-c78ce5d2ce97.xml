@@ -1,4 +1,7 @@
-<IagCollectionProperties xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.Iag.Core.CollectionProperties" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CollectionName xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">Omron_IAG</a:currentValue></CollectionName><Description xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">S06V01R01 - 2026.07.31 - PC&#xD;
+<IagCollectionProperties xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.Iag.Core.CollectionProperties" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CollectionName xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">Omron_IAG</a:currentValue></CollectionName><Description xmlns:a="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.Common.Core.Data"><a:currentValue i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">S06V01R02 - 2026.10.27 - FaS&#xD;
+- Add M button and selection&#xD;
+&#xD;
+S06V01R01 - 2026.07.31 - PC&#xD;
 - Create gripper object&#xD;
 &#xD;
 S06V01R00 - 2026.06.29 - PC&#xD;

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Boolean" Name="Usable" Address="" Length="" Retained="false" InitialValue="True" Comment="Activation of Bouton" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="539f363a-4906-41f6-9009-605cec5533f7" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="Selection_Sta" Address="" Length="" Retained="false" InitialValue="False" Comment="Status of selection" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="7efa0fc2-f6e5-4f5e-864f-d43fe5e2d9c9" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="Selection_Cmd" Address="" Length="" Retained="false" InitialValue="" Comment="Command of selection" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="9bb22852-0e81-4bd0-89d7-c7a1101964eb" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="OBJ\eColor" Name="Color" Address="" Length="" Retained="false" InitialValue="" Comment="Set the color of buton" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="9827c807-c0cd-4317-867a-27152c564e97" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>
